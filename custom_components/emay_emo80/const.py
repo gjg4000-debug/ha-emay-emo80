@@ -1,0 +1,11 @@
+"""Constants for the EMAY EMO-80 pulse oximeter integration."""
+
+DOMAIN = "emay_emo80"
+
+SERVICE_UUID = "0000ff12-0000-1000-8000-00805f9b34fb"
+WRITE_CHAR_UUID = "0000ff01-0000-1000-8000-00805f9b34fb"
+NOTIFY_CHAR_UUID = "0000ff02-0000-1000-8000-00805f9b34fb"
+
+DEFAULT_NAME = "EMO-80"
+
+CONF_ADDRESS = "address"

@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EMAY EMO-80 Pulse Oximeter",
+        "description": "Enter the oximeter's Bluetooth MAC address. Home Assistant connects to it with its own Bluetooth adapter or an active Bluetooth proxy.",
+        "data": {
+          "address": "Bluetooth MAC address"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "Enter a MAC address like AA:BB:CC:DD:EE:FF"
+    },
+    "abort": {
+      "already_configured": "This device is already configured"
+    }
+  }
+}
